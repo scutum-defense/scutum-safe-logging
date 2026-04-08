@@ -1,0 +1,27 @@
+{
+  "name": "@scutum/safe-logging",
+  "version": "0.1.0",
+  "description": "Structured, safe logging for defense operations — prevents sensitive data leakage in log output",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0"
+  }
+}
