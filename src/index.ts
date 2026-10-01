@@ -5,3 +5,4 @@ export { JsonFormatter } from "./formatters/json";
 export { ConsoleTransport } from "./transports/console";
 export { SensitiveFieldGuard } from "./guards/sensitive-field";
 export { RedactionGuard } from "./guards/redaction";
+export { ContextRedactionGuard } from "./guards/context-redaction";
